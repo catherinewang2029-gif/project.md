@@ -1,0 +1,105 @@
+### Project 1 
+What would the commands be to build the diagram outlined below?
+
+``` bash
+grocery-store/
+├── aisle1/
+│   ├── fruits/
+│   │   ├── apples.txt
+│   │   ├── pears.txt
+│   │   ├── mango.txt  
+│   │   └── papaya.txt
+│   └── vegetables/
+│       ├── celery.txt
+│       ├── zucchini.txt
+│       ├── zucchini.txt
+│       └── carrot.txt
+└── aisle2/
+    ├── dairy/
+        ├── milk.txt
+        └── cheese.txt
+```
+
+Write your code in the codeblock below: 
+``` bash
+//code here
+```
+mkdir main
+cdmain
+mkdiraisle1/
+cdaisle1/
+mkdirfruits/
+cdfruits/
+touch apples.txt
+touch pears.txt
+touch mango.txt  
+touch papaya.txt
+cd..
+mkdirvegetables/
+cdvegetables/
+touch celery.txt
+touch zucchini.txt
+touch zucchini.txt
+touch carrot.txt
+cd..
+cd..
+mkdiraisles2/
+cdaisle2/
+mkdirdairy/
+cddairy/
+touch milk.txt
+touch cheese.txt
+---
+
+### Project 2
+What would the commands be to build the diagram outlined below?
+
+``` bash
+MESA/
+├── bushwick/
+│   ├── second_floor
+│   │   ├── english_class.md
+│   │   ├── college_counselors.md
+│   │   ├── history_class.md  
+│   │   └── spanish_class.md
+│   └── third_floor
+│       ├── english_class.txt
+│       ├── algebra_1.txt
+│       ├── global_class.txt
+└── south_brooklyn/
+    ├── second_floor/
+        ├── writing_seminar.md
+        └── global.md
+```
+
+Write your code in the codeblock below: 
+``` bash
+//code here
+```
+Project 2
+mkdirMESA/
+cdMESA
+mkdirbushwick/
+cdbushwick/
+mkdirsecond_floor
+cdsecond_floor
+touch english_class.md
+touch  college_counselors.md
+touch history_class.md  
+touch spanish_class.md
+cd..
+mkdir third_floor
+cdthird_floor
+touch english_class.txt 
+touch algebra_1.txt
+touch global_class.txt
+cd..
+cd..
+cd..
+mkdirsouth_brooklyn/
+cdsouth_brooklyn/
+mkdir second_floor/
+cdsecond_floor/
+touch  writing_seminar.md
+touch global.md
+---
